@@ -6,6 +6,8 @@ on:
     - .editorconfig
     - .gitattributes
     - .gitignore
+    - CHANGELOG.md
+    - LICENSE.md
     - README.md
 
 jobs:
