@@ -8,6 +8,8 @@ on:
     - .editorconfig
     - .gitattributes
     - .gitignore
+    - CHANGELOG.md
+    - LICENSE.md
     - README.md
 
 jobs:
@@ -27,3 +29,19 @@ jobs:
       run: terraform fmt -check -recursive
     - name: Validate configuration
       run: terraform validate
+
+  release:
+    name: Release?
+    if: github.repository != 'unfunco/template-terraform-module'
+    needs: [ verify ]
+    permissions:
+      contents: write
+      pull-requests: write
+    runs-on: ubuntu-latest
+    steps:
+    - name: Prepare a release
+      uses: googleapis/release-please-action@v4
+      with:
+        config-file: .github/release-please-config.json
+        manifest-file: .github/release-please-manifest.json
+        token: ${{ secrets.GITHUB_TOKEN }}
