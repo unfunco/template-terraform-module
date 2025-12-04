@@ -9,7 +9,7 @@ A template for creating a Terraform module repository.
 
 ### Requirements
 
-- [Terraform] 1.13+
+- [Terraform] 1.14+
 
 ### Installation and usage
 
