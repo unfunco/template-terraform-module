@@ -42,7 +42,7 @@ pull request is merged, a new release will be created.
 
 ## License
 
-© 2025 [Daniel Morris]\
+© 2026 [Daniel Morris]\
 Made available under the terms of the [MIT License].
 
 [conventional commit]: https://www.conventionalcommits.org
