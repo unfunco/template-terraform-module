@@ -1,14 +1,7 @@
 name: PR
 
 on:
-  pull_request:
-    paths-ignore:
-    - .editorconfig
-    - .gitattributes
-    - .gitignore
-    - CHANGELOG.md
-    - LICENSE.md
-    - README.md
+  pull_request: { }
 
 jobs:
   verify:
@@ -20,7 +13,7 @@ jobs:
     - name: Set up Terraform
       uses: hashicorp/setup-terraform@v3
       with:
-        terraform_version: 1.14.0
+        terraform_version: 1.14.3
     - name: Initialise with no backend
       run: terraform init -backend=false
     - name: Check formatting
