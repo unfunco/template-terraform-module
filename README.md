@@ -13,15 +13,18 @@ A template for creating a Terraform module repository.
 
 ### Installation and usage
 
+<!-- x-release-please-start-version -->
+
 ```terraform
 module "example" {
   source  = "unfunco/module-name/aws"
-  version = "0.0.0" // x-release-please-version
+  version = "0.0.0"
 
   // ...
 }
 ```
 
+<!-- x-release-please-end -->
 <!-- BEGIN_TF_DOCS -->
 
 ### Inputs

@@ -22,7 +22,6 @@
       "draft": false,
       "extra-files": [
         {
-          "glob": false,
           "path": "README.md",
           "type": "generic"
         }
