@@ -16,7 +16,7 @@
         {
           "hidden": false,
           "section": "🧹 Miscellaneous",
-          "type": "🧹 chore"
+          "type": "chore"
         }
       ],
       "draft": false,
@@ -28,7 +28,7 @@
       ],
       "extra-label": "automata 🤖,autorelease: pending,chore 🧹",
       "include-v-in-tag": true,
-      "initial-version": "1.8.0",
+      "initial-version": "0.1.0",
       "prerelease": false,
       "pull-request-header": "🤖 I have created a release",
       "pull-request-title-pattern": "chore: Release v${version}",
