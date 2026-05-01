@@ -18,7 +18,7 @@ A template for creating a Terraform module repository.
 ```terraform
 module "example" {
   source  = "unfunco/module-name/aws"
-  version = "0.0.0"
+  version = "0.1.0"
 
   // ...
 }
