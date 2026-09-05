@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.1](https://github.com/unfunco/template-terraform-aws-module/compare/v0.1.0...v0.1.1) (2026-09-05)
+
+
+### 🧹 Miscellaneous
+
+* Bump actions/checkout from 6.0.2 to 7.0.1 ([#15](https://github.com/unfunco/template-terraform-aws-module/issues/15)) ([efdd00d](https://github.com/unfunco/template-terraform-aws-module/commit/efdd00da206f81652458920abddac6fab15195a2))
+* Bump hashicorp/setup-terraform from 4.0.0 to 4.0.1 ([#12](https://github.com/unfunco/template-terraform-aws-module/issues/12)) ([40aca20](https://github.com/unfunco/template-terraform-aws-module/commit/40aca20bae0f666b3d19947591df5032242faa6e))
+
 ## 0.1.0 (2026-04-27)
 
 
